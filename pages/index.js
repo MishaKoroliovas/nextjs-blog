@@ -15,6 +15,7 @@ export default function Home() {
           Learn <Link href="/posts/first-post">Next.js!</Link>
           
         </h1>
+        <img src="/images/profile.jpg" alt="Profile pic"/>
 
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
@@ -58,7 +59,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          
         </a>
       </footer>
 
